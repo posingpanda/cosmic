@@ -18,31 +18,70 @@
 	</header>
 	
 	<body>
+	
 		<div class="conatiner">
 			<div class="row">
 				<div class="col-sm-3">
 					<div class="warning">
 					<img src= "logo.png"alt="logo" width="100%">
-					<p>Cosmic phones</p>
+					<p>Cosmic phones</p> 
 					</div>
 				</div>
+				
 				<div class="col-sm-9" id="bgw">
-					<h1>Welcome to Cosmic Phones!</h1>
+				<div class="container">
+				<h1>Welcome to Cosmic Phones!</h1>
 					<h2>Shop Now</h2>
-				</div>
-				<div class="row">
-				<div class="col">
-					<h1>Body Section!</h1>
-				<img src ="https://m.media-amazon.com/images/I/71Eqe21Rm9L._AC_SX679_.jpg" width="200px" height="200px"><p> Samsung Galaxy S12 + cosmic case</p> <h3> ONLY £3.99</h3>
-				<button> Buy now</button>
+					<!--Search bar-->
+  <input type="text" placeholder="Search..."> 
+  <!-- shopping-basket-->
+  <div class="cart">
+			<i class="fa fa-shopping-basket fa-2x"></i>
+      <i class="fa fa-caret-down"></i><br>
+			<div class="total-text">
+				<p>Items</p>
+				<p id="items-basket"></p>
+			</div>
+		</div>
+
+		<div id="cart-items">
+			<ol id="list-item">
+			</ol>
+
+			<div class="total-text">
+					<p>Total: </p>
+					<p id="total-price"></p>
+			</div>
+		</div>
+
+
+</div></div><div class="items-container">
+	<!-- Item -->
+		<div class="item">
+			<img src="https://m.media-amazon.com/images/I/71Eqe21Rm9L._AC_SX679_.jpg" width="200px" height="200px">
+			<div class="overflow">
+			</div>
+			<div class="item-detail">
+				<h4>Samsung Galaxy</h4>
+				<div class="prices">
+				<button>Buy now</button>
+				<p class="price">149</p>
+				<div class = "spacingtool"> </div>
+				
 				</div>
 			</div>
 		</div>
-		<!-- this will be the fixed navbar -->
+  <div class="search"></div>
+ 
+					
+	
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		 <script src='https://use.fontawesome.com/1fa2e54b22.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+
 	</body>
 	<footer>
-	<!-- This is the dision class for the site footer so it remains foxed at the bottom the page<!-->
+	<!-- This is the dision class for the site footer so it remains foxed at the bottom the page<!-->	<!-- this will be the fixed responsive navbar -->
 	  <div class="site-footer container-fluid fixed-bottom">
 		 <nav class="nav nav-justified footer-nav mt-4 d-flex align-items-center justify-content-center nav-fill">
 		   <a class="nav-link" href="Homepage.html">Home</a>
